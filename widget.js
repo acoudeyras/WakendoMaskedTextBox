@@ -1,7 +1,7 @@
-WAF.define('KendoMaskedTextBox', ['waf-core/widget', 'kendoCore'], function(widget, $) {
+WAF.define('WakendoMaskedTextBox', ['waf-core/widget', 'wakendoCore'], function(widget, $) {
 	'use strict';
 		
-    var KendoMaskedTextBox = widget.create('KendoMaskedTextBox', {
+    var KendoMaskedTextBox = widget.create('WakendoMaskedTextBox', {
 
     	value: widget.property({
     		type: 'string'
